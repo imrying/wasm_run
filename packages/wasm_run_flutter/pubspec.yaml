@@ -22,7 +22,10 @@ dependencies:
   plugin_platform_interface: ^2.0.2
   flutter_web_plugins:
     sdk: flutter
-  wasm_run: ^0.1.0
+  wasm_run:
+    git:
+      url: https://github.com/imrying/wasm_run.git
+      ref: main
 
 dev_dependencies:
   ffi: ^2.0.1
